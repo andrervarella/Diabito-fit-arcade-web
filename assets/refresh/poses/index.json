@@ -1,0 +1,317 @@
+{
+  "version": 1,
+  "characters": {
+    "diabito": {
+      "front": "/assets/refresh/poses/diabito/front.png",
+      "side": "/assets/refresh/poses/diabito/side.png",
+      "back": "/assets/refresh/poses/diabito/back.png",
+      "abs": "/assets/refresh/poses/diabito/abs.png",
+      "final": "/assets/refresh/poses/diabito/final.png"
+    },
+    "brasa": {
+      "front": "/assets/refresh/poses/brasa/front.png",
+      "side": "/assets/refresh/poses/brasa/side.png",
+      "back": "/assets/refresh/poses/brasa/back.png",
+      "abs": "/assets/refresh/poses/brasa/abs.png",
+      "final": "/assets/refresh/poses/brasa/final.png"
+    },
+    "granito": {
+      "front": "/assets/refresh/poses/granito/front.png",
+      "side": "/assets/refresh/poses/granito/side.png",
+      "back": "/assets/refresh/poses/granito/back.png",
+      "abs": "/assets/refresh/poses/granito/abs.png",
+      "final": "/assets/refresh/poses/granito/final.png"
+    },
+    "trovao": {
+      "front": "/assets/refresh/poses/trovao/front.png",
+      "side": "/assets/refresh/poses/trovao/side.png",
+      "back": "/assets/refresh/poses/trovao/back.png",
+      "abs": "/assets/refresh/poses/trovao/abs.png",
+      "final": "/assets/refresh/poses/trovao/final.png"
+    },
+    "titan": {
+      "front": "/assets/refresh/poses/titan/front.png",
+      "side": "/assets/refresh/poses/titan/side.png",
+      "back": "/assets/refresh/poses/titan/back.png",
+      "abs": "/assets/refresh/poses/titan/abs.png",
+      "final": "/assets/refresh/poses/titan/final.png"
+    }
+  },
+  "clips": {
+    "diabito/front": {
+      "frames": [
+        "/assets/refresh/poses/diabito/front.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "brasa/front": {
+      "frames": [
+        "/assets/refresh/poses/brasa/front.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "granito/front": {
+      "frames": [
+        "/assets/refresh/poses/granito/front.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "trovao/front": {
+      "frames": [
+        "/assets/refresh/poses/trovao/front.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "titan/front": {
+      "frames": [
+        "/assets/refresh/poses/titan/front.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "diabito/side": {
+      "frames": [
+        "/assets/refresh/poses/diabito/side.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "brasa/side": {
+      "frames": [
+        "/assets/refresh/poses/brasa/side.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "granito/side": {
+      "frames": [
+        "/assets/refresh/poses/granito/side.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "trovao/side": {
+      "frames": [
+        "/assets/refresh/poses/trovao/side.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "titan/side": {
+      "frames": [
+        "/assets/refresh/poses/titan/side.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "diabito/back": {
+      "frames": [
+        "/assets/refresh/poses/diabito/back.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "brasa/back": {
+      "frames": [
+        "/assets/refresh/poses/brasa/back.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "granito/back": {
+      "frames": [
+        "/assets/refresh/poses/granito/back.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "trovao/back": {
+      "frames": [
+        "/assets/refresh/poses/trovao/back.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "titan/back": {
+      "frames": [
+        "/assets/refresh/poses/titan/back.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "diabito/abs": {
+      "frames": [
+        "/assets/refresh/poses/diabito/abs.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "brasa/abs": {
+      "frames": [
+        "/assets/refresh/poses/brasa/abs.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "granito/abs": {
+      "frames": [
+        "/assets/refresh/poses/granito/abs.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "trovao/abs": {
+      "frames": [
+        "/assets/refresh/poses/trovao/abs.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "titan/abs": {
+      "frames": [
+        "/assets/refresh/poses/titan/abs.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "diabito/final": {
+      "frames": [
+        "/assets/refresh/poses/diabito/final.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "brasa/final": {
+      "frames": [
+        "/assets/refresh/poses/brasa/final.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "granito/final": {
+      "frames": [
+        "/assets/refresh/poses/granito/final.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "trovao/final": {
+      "frames": [
+        "/assets/refresh/poses/trovao/final.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "titan/final": {
+      "frames": [
+        "/assets/refresh/poses/titan/final.png"
+      ],
+      "frameMs": 1000,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    }
+  }
+}

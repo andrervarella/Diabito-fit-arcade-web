@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "clips": {
+    "brasa": {
+      "frames": [
+        "/assets/refresh/rivals/brasa/run-000.png",
+        "/assets/refresh/rivals/brasa/run-001.png",
+        "/assets/refresh/rivals/brasa/run-002.png",
+        "/assets/refresh/rivals/brasa/run-003.png"
+      ],
+      "frameMs": 100,
+      "loop": true,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "granito": {
+      "frames": [
+        "/assets/refresh/rivals/granito/run-000.png",
+        "/assets/refresh/rivals/granito/run-001.png",
+        "/assets/refresh/rivals/granito/run-002.png",
+        "/assets/refresh/rivals/granito/run-003.png"
+      ],
+      "frameMs": 100,
+      "loop": true,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "trovao": {
+      "frames": [
+        "/assets/refresh/rivals/trovao/run-000.png",
+        "/assets/refresh/rivals/trovao/run-001.png",
+        "/assets/refresh/rivals/trovao/run-002.png",
+        "/assets/refresh/rivals/trovao/run-003.png"
+      ],
+      "frameMs": 100,
+      "loop": true,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "titan": {
+      "frames": [
+        "/assets/refresh/rivals/titan/run-000.png",
+        "/assets/refresh/rivals/titan/run-001.png",
+        "/assets/refresh/rivals/titan/run-002.png",
+        "/assets/refresh/rivals/titan/run-003.png"
+      ],
+      "frameMs": 100,
+      "loop": true,
+      "anchor": [
+        256,
+        480
+      ]
+    }
+  }
+}
