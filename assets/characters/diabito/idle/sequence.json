@@ -1,0 +1,28 @@
+{
+  "id": "idle",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "anchor": [
+    128,
+    240
+  ],
+  "frames": [
+    {
+      "path": "/assets/characters/diabito/idle/frame-000.png",
+      "durationMs": 260
+    },
+    {
+      "path": "/assets/characters/diabito/idle/frame-001.png",
+      "durationMs": 260
+    },
+    {
+      "path": "/assets/characters/diabito/idle/frame-002.png",
+      "durationMs": 260
+    },
+    {
+      "path": "/assets/characters/diabito/idle/frame-003.png",
+      "durationMs": 260
+    }
+  ],
+  "loop": true
+}

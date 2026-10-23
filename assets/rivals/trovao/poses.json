@@ -1,0 +1,40 @@
+{
+  "id": "trovao-poses",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "anchor": [
+    128,
+    240
+  ],
+  "loop": false,
+  "frames": [
+    {
+      "path": "/assets/rivals/trovao/front.png",
+      "durationMs": 1000,
+      "pose": "front"
+    },
+    {
+      "path": "/assets/rivals/trovao/side.png",
+      "durationMs": 1000,
+      "pose": "side"
+    },
+    {
+      "path": "/assets/rivals/trovao/back.png",
+      "durationMs": 1000,
+      "pose": "back"
+    },
+    {
+      "path": "/assets/rivals/trovao/abs.png",
+      "durationMs": 1000,
+      "pose": "abs"
+    },
+    {
+      "path": "/assets/rivals/trovao/final.png",
+      "durationMs": 1000,
+      "pose": "final"
+    }
+  ],
+  "source": "exec-bf82b809-202b-45d5-9133-70ab65a30630.png",
+  "reviewStatus": "PASSED_STATIC_POSE_INSPECTION",
+  "notes": "Five distinct full-body bodybuilding poses; pose transitions are discrete frames, not an interpolated motion cycle."
+}

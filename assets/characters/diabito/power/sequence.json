@@ -1,0 +1,28 @@
+{
+  "id": "power",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "anchor": [
+    128,
+    240
+  ],
+  "frames": [
+    {
+      "path": "/assets/characters/diabito/power/frame-000.png",
+      "durationMs": 150
+    },
+    {
+      "path": "/assets/characters/diabito/power/frame-001.png",
+      "durationMs": 150
+    },
+    {
+      "path": "/assets/characters/diabito/power/frame-002.png",
+      "durationMs": 150
+    },
+    {
+      "path": "/assets/characters/diabito/power/frame-003.png",
+      "durationMs": 150
+    }
+  ],
+  "loop": true
+}
