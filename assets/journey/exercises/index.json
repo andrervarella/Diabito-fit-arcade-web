@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "width": 512,
+  "height": 512,
+  "anchor": [
+    256,
+    480
+  ],
+  "clips": {
+    "shoulder": {
+      "frames": [
+        "/assets/journey/exercises/shoulder/frame-000.png",
+        "/assets/journey/exercises/shoulder/frame-001.png",
+        "/assets/journey/exercises/shoulder/frame-002.png",
+        "/assets/journey/exercises/shoulder/frame-003.png",
+        "/assets/journey/exercises/shoulder/frame-004.png",
+        "/assets/journey/exercises/shoulder/frame-005.png",
+        "/assets/journey/exercises/shoulder/frame-006.png",
+        "/assets/journey/exercises/shoulder/frame-007.png"
+      ],
+      "frameMs": 250,
+      "durationMs": 2000,
+      "loop": false
+    },
+    "curl": {
+      "frames": [
+        "/assets/journey/exercises/curl/frame-000.png",
+        "/assets/journey/exercises/curl/frame-001.png",
+        "/assets/journey/exercises/curl/frame-002.png",
+        "/assets/journey/exercises/curl/frame-003.png",
+        "/assets/journey/exercises/curl/frame-004.png",
+        "/assets/journey/exercises/curl/frame-005.png",
+        "/assets/journey/exercises/curl/frame-006.png",
+        "/assets/journey/exercises/curl/frame-007.png"
+      ],
+      "frameMs": 250,
+      "durationMs": 2000,
+      "loop": false
+    },
+    "triceps": {
+      "frames": [
+        "/assets/journey/exercises/triceps/frame-000.png",
+        "/assets/journey/exercises/triceps/frame-001.png",
+        "/assets/journey/exercises/triceps/frame-002.png",
+        "/assets/journey/exercises/triceps/frame-003.png",
+        "/assets/journey/exercises/triceps/frame-004.png",
+        "/assets/journey/exercises/triceps/frame-005.png",
+        "/assets/journey/exercises/triceps/frame-006.png",
+        "/assets/journey/exercises/triceps/frame-007.png"
+      ],
+      "frameMs": 250,
+      "durationMs": 2000,
+      "loop": false
+    },
+    "pullup": {
+      "frames": [
+        "/assets/journey/exercises/pullup/frame-000.png",
+        "/assets/journey/exercises/pullup/frame-001.png",
+        "/assets/journey/exercises/pullup/frame-002.png",
+        "/assets/journey/exercises/pullup/frame-003.png",
+        "/assets/journey/exercises/pullup/frame-004.png",
+        "/assets/journey/exercises/pullup/frame-005.png"
+      ],
+      "frameMs": 333.3333333333333,
+      "durationMs": 2000,
+      "loop": false
+    }
+  }
+}
