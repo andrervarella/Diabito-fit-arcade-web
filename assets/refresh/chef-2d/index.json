@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "width": 512,
+  "height": 512,
+  "anchor": [
+    256,
+    480
+  ],
+  "clips": {
+    "chef-idle": {
+      "frames": [
+        "/assets/refresh/chef-2d/idle-00.png",
+        "/assets/refresh/chef-2d/idle-01.png"
+      ],
+      "frameMs": 260,
+      "loop": true,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "chef-grab": {
+      "frames": [
+        "/assets/refresh/chef-2d/grab-00.png",
+        "/assets/refresh/chef-2d/grab-01.png",
+        "/assets/refresh/chef-2d/grab-02.png",
+        "/assets/refresh/chef-2d/grab-03.png",
+        "/assets/refresh/chef-2d/grab-04.png",
+        "/assets/refresh/chef-2d/grab-05.png"
+      ],
+      "frameMs": 100,
+      "loop": false,
+      "anchor": [
+        256,
+        480
+      ]
+    }
+  }
+}
