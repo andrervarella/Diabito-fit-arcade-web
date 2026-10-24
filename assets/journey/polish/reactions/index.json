@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "width": 512,
+  "height": 512,
+  "anchor": [
+    256,
+    480
+  ],
+  "clips": {
+    "reaction-initial-great": {
+      "frames": [
+        "/assets/journey/polish/reactions/initial/great/frame-000.png",
+        "/assets/journey/polish/reactions/initial/great/frame-001.png",
+        "/assets/journey/polish/reactions/initial/great/frame-002.png",
+        "/assets/journey/polish/reactions/initial/great/frame-003.png"
+      ],
+      "frameMs": 220,
+      "loop": false
+    },
+    "reaction-initial-okay": {
+      "frames": [
+        "/assets/journey/polish/reactions/initial/okay/frame-000.png",
+        "/assets/journey/polish/reactions/initial/okay/frame-001.png",
+        "/assets/journey/polish/reactions/initial/okay/frame-002.png",
+        "/assets/journey/polish/reactions/initial/okay/frame-003.png"
+      ],
+      "frameMs": 220,
+      "loop": false
+    },
+    "reaction-initial-retry": {
+      "frames": [
+        "/assets/journey/polish/reactions/initial/retry/frame-000.png",
+        "/assets/journey/polish/reactions/initial/retry/frame-001.png",
+        "/assets/journey/polish/reactions/initial/retry/frame-002.png",
+        "/assets/journey/polish/reactions/initial/retry/frame-003.png"
+      ],
+      "frameMs": 220,
+      "loop": false
+    },
+    "reaction-initial-drink": {
+      "frames": [
+        "/assets/journey/polish/reactions/initial/drink/frame-000.png",
+        "/assets/journey/polish/reactions/initial/drink/frame-001.png",
+        "/assets/journey/polish/reactions/initial/drink/frame-002.png",
+        "/assets/journey/polish/reactions/initial/drink/frame-003.png"
+      ],
+      "frameMs": 300,
+      "loop": false
+    },
+    "reaction-intermediate-great": {
+      "frames": [
+        "/assets/journey/polish/reactions/intermediate/great/frame-000.png",
+        "/assets/journey/polish/reactions/intermediate/great/frame-001.png",
+        "/assets/journey/polish/reactions/intermediate/great/frame-002.png",
+        "/assets/journey/polish/reactions/intermediate/great/frame-003.png"
+      ],
+      "frameMs": 220,
+      "loop": false
+    },
+    "reaction-intermediate-okay": {
+      "frames": [
+        "/assets/journey/polish/reactions/intermediate/okay/frame-000.png",
+        "/assets/journey/polish/reactions/intermediate/okay/frame-001.png",
+        "/assets/journey/polish/reactions/intermediate/okay/frame-002.png",
+        "/assets/journey/polish/reactions/intermediate/okay/frame-003.png"
+      ],
+      "frameMs": 220,
+      "loop": false
+    },
+    "reaction-intermediate-retry": {
+      "frames": [
+        "/assets/journey/polish/reactions/intermediate/retry/frame-000.png",
+        "/assets/journey/polish/reactions/intermediate/retry/frame-001.png",
+        "/assets/journey/polish/reactions/intermediate/retry/frame-002.png",
+        "/assets/journey/polish/reactions/intermediate/retry/frame-003.png"
+      ],
+      "frameMs": 220,
+      "loop": false
+    },
+    "reaction-intermediate-drink": {
+      "frames": [
+        "/assets/journey/polish/reactions/intermediate/drink/frame-000.png",
+        "/assets/journey/polish/reactions/intermediate/drink/frame-001.png",
+        "/assets/journey/polish/reactions/intermediate/drink/frame-002.png",
+        "/assets/journey/polish/reactions/intermediate/drink/frame-003.png"
+      ],
+      "frameMs": 300,
+      "loop": false
+    },
+    "reaction-elite-great": {
+      "frames": [
+        "/assets/journey/polish/reactions/elite/great/frame-000.png",
+        "/assets/journey/polish/reactions/elite/great/frame-001.png",
+        "/assets/journey/polish/reactions/elite/great/frame-002.png",
+        "/assets/journey/polish/reactions/elite/great/frame-003.png"
+      ],
+      "frameMs": 220,
+      "loop": false
+    },
+    "reaction-elite-okay": {
+      "frames": [
+        "/assets/journey/polish/reactions/elite/okay/frame-000.png",
+        "/assets/journey/polish/reactions/elite/okay/frame-001.png",
+        "/assets/journey/polish/reactions/elite/okay/frame-002.png",
+        "/assets/journey/polish/reactions/elite/okay/frame-003.png"
+      ],
+      "frameMs": 220,
+      "loop": false
+    },
+    "reaction-elite-retry": {
+      "frames": [
+        "/assets/journey/polish/reactions/elite/retry/frame-000.png",
+        "/assets/journey/polish/reactions/elite/retry/frame-001.png",
+        "/assets/journey/polish/reactions/elite/retry/frame-002.png",
+        "/assets/journey/polish/reactions/elite/retry/frame-003.png"
+      ],
+      "frameMs": 220,
+      "loop": false
+    },
+    "reaction-elite-drink": {
+      "frames": [
+        "/assets/journey/polish/reactions/elite/drink/frame-000.png",
+        "/assets/journey/polish/reactions/elite/drink/frame-001.png",
+        "/assets/journey/polish/reactions/elite/drink/frame-002.png",
+        "/assets/journey/polish/reactions/elite/drink/frame-003.png"
+      ],
+      "frameMs": 300,
+      "loop": false
+    }
+  }
+}

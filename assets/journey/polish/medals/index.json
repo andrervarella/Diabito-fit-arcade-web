@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "width": 512,
+  "height": 512,
+  "anchor": [
+    256,
+    480
+  ],
+  "clips": {
+    "medal-initial-gold": {
+      "frames": [
+        "/assets/journey/polish/medals/initial/gold/frame-000.png",
+        "/assets/journey/polish/medals/initial/gold/frame-001.png",
+        "/assets/journey/polish/medals/initial/gold/frame-002.png",
+        "/assets/journey/polish/medals/initial/gold/frame-003.png"
+      ],
+      "frameMs": 250,
+      "loop": false
+    },
+    "medal-initial-silver": {
+      "frames": [
+        "/assets/journey/polish/medals/initial/silver/frame-000.png",
+        "/assets/journey/polish/medals/initial/silver/frame-001.png",
+        "/assets/journey/polish/medals/initial/silver/frame-002.png",
+        "/assets/journey/polish/medals/initial/silver/frame-003.png"
+      ],
+      "frameMs": 250,
+      "loop": false
+    },
+    "medal-initial-bronze": {
+      "frames": [
+        "/assets/journey/polish/medals/initial/bronze/frame-000.png",
+        "/assets/journey/polish/medals/initial/bronze/frame-001.png",
+        "/assets/journey/polish/medals/initial/bronze/frame-002.png",
+        "/assets/journey/polish/medals/initial/bronze/frame-003.png"
+      ],
+      "frameMs": 250,
+      "loop": false
+    },
+    "medal-intermediate-gold": {
+      "frames": [
+        "/assets/journey/polish/medals/intermediate/gold/frame-000.png",
+        "/assets/journey/polish/medals/intermediate/gold/frame-001.png",
+        "/assets/journey/polish/medals/intermediate/gold/frame-002.png",
+        "/assets/journey/polish/medals/intermediate/gold/frame-003.png"
+      ],
+      "frameMs": 250,
+      "loop": false
+    },
+    "medal-intermediate-silver": {
+      "frames": [
+        "/assets/journey/polish/medals/intermediate/silver/frame-000.png",
+        "/assets/journey/polish/medals/intermediate/silver/frame-001.png",
+        "/assets/journey/polish/medals/intermediate/silver/frame-002.png",
+        "/assets/journey/polish/medals/intermediate/silver/frame-003.png"
+      ],
+      "frameMs": 250,
+      "loop": false
+    },
+    "medal-intermediate-bronze": {
+      "frames": [
+        "/assets/journey/polish/medals/intermediate/bronze/frame-000.png",
+        "/assets/journey/polish/medals/intermediate/bronze/frame-001.png",
+        "/assets/journey/polish/medals/intermediate/bronze/frame-002.png",
+        "/assets/journey/polish/medals/intermediate/bronze/frame-003.png"
+      ],
+      "frameMs": 250,
+      "loop": false
+    },
+    "medal-elite-gold": {
+      "frames": [
+        "/assets/journey/polish/medals/elite/gold/frame-000.png",
+        "/assets/journey/polish/medals/elite/gold/frame-001.png",
+        "/assets/journey/polish/medals/elite/gold/frame-002.png",
+        "/assets/journey/polish/medals/elite/gold/frame-003.png"
+      ],
+      "frameMs": 250,
+      "loop": false
+    },
+    "medal-elite-silver": {
+      "frames": [
+        "/assets/journey/polish/medals/elite/silver/frame-000.png",
+        "/assets/journey/polish/medals/elite/silver/frame-001.png",
+        "/assets/journey/polish/medals/elite/silver/frame-002.png",
+        "/assets/journey/polish/medals/elite/silver/frame-003.png"
+      ],
+      "frameMs": 250,
+      "loop": false
+    },
+    "medal-elite-bronze": {
+      "frames": [
+        "/assets/journey/polish/medals/elite/bronze/frame-000.png",
+        "/assets/journey/polish/medals/elite/bronze/frame-001.png",
+        "/assets/journey/polish/medals/elite/bronze/frame-002.png",
+        "/assets/journey/polish/medals/elite/bronze/frame-003.png"
+      ],
+      "frameMs": 250,
+      "loop": false
+    }
+  }
+}

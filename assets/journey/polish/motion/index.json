@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "width": 512,
+  "height": 512,
+  "anchor": [
+    256,
+    480
+  ],
+  "clips": {
+    "polish-bench": {
+      "frames": [
+        "/assets/journey/polish/motion/bench/frame-000.png",
+        "/assets/journey/polish/motion/bench/frame-001.png",
+        "/assets/journey/polish/motion/bench/frame-002.png",
+        "/assets/journey/polish/motion/bench/frame-003.png",
+        "/assets/journey/polish/motion/bench/frame-004.png",
+        "/assets/journey/polish/motion/bench/frame-005.png",
+        "/assets/journey/polish/motion/bench/frame-006.png",
+        "/assets/journey/polish/motion/bench/frame-007.png",
+        "/assets/journey/polish/motion/bench/frame-008.png",
+        "/assets/journey/polish/motion/bench/frame-009.png",
+        "/assets/journey/polish/motion/bench/frame-010.png",
+        "/assets/journey/polish/motion/bench/frame-011.png",
+        "/assets/journey/polish/motion/bench/frame-012.png",
+        "/assets/journey/polish/motion/bench/frame-013.png",
+        "/assets/journey/polish/motion/bench/frame-014.png",
+        "/assets/journey/polish/motion/bench/frame-015.png"
+      ],
+      "frameMs": 125.0,
+      "durationMs": 2000,
+      "loop": false
+    },
+    "polish-squat": {
+      "frames": [
+        "/assets/journey/polish/motion/squat/frame-000.png",
+        "/assets/journey/polish/motion/squat/frame-001.png",
+        "/assets/journey/polish/motion/squat/frame-002.png",
+        "/assets/journey/polish/motion/squat/frame-003.png",
+        "/assets/journey/polish/motion/squat/frame-004.png",
+        "/assets/journey/polish/motion/squat/frame-005.png",
+        "/assets/journey/polish/motion/squat/frame-006.png",
+        "/assets/journey/polish/motion/squat/frame-007.png",
+        "/assets/journey/polish/motion/squat/frame-008.png",
+        "/assets/journey/polish/motion/squat/frame-009.png",
+        "/assets/journey/polish/motion/squat/frame-010.png",
+        "/assets/journey/polish/motion/squat/frame-011.png"
+      ],
+      "frameMs": 166.66666666666666,
+      "durationMs": 2000,
+      "loop": false
+    }
+  }
+}
