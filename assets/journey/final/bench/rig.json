@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "coordinateSystem": [
+    512,
+    512
+  ],
+  "method": "one imagegen semantic cutout kit; static body and fixed-length two-link IK; no morphs or frame scale",
+  "source": "artifacts/final-fit-assets/bench/raw/rig-kit-v2.png",
+  "baseAndBarSource": "artifacts/final-fit-assets/bench/raw/rig-kit-v1.png",
+  "armSource": "artifacts/final-fit-assets/bench/raw/rig-kit-v2.png",
+  "references": [
+    "referencias/originais/1000291392.webp",
+    "public/assets/refresh/diabito-2d/idle/frame-000.png"
+  ],
+  "base": {
+    "path": "base.png",
+    "position": [
+      0,
+      0
+    ],
+    "size": [
+      512,
+      512
+    ],
+    "visibleBounds": [
+      35,
+      181,
+      456,
+      481
+    ],
+    "constant": true
+  },
+  "parts": {
+    "near-upper": {
+      "crop": [
+        610,
+        170,
+        970,
+        410
+      ],
+      "p0": [
+        677,
+        270
+      ],
+      "p1": [
+        908,
+        306
+      ],
+      "length": 95,
+      "normalizedPivot": [
+        128,
+        256
+      ],
+      "normalizedEnd": [
+        223,
+        256
+      ]
+    },
+    "near-fore": {
+      "crop": [
+        1050,
+        180,
+        1500,
+        430
+      ],
+      "p0": [
+        1122,
+        296
+      ],
+      "p1": [
+        1396,
+        298
+      ],
+      "length": 98,
+      "normalizedPivot": [
+        128,
+        256
+      ],
+      "normalizedEnd": [
+        226,
+        256
+      ]
+    },
+    "far-upper": {
+      "crop": [
+        60,
+        640,
+        470,
+        900
+      ],
+      "p0": [
+        153,
+        745
+      ],
+      "p1": [
+        384,
+        781
+      ],
+      "length": 67,
+      "normalizedPivot": [
+        128,
+        256
+      ],
+      "normalizedEnd": [
+        195,
+        256
+      ]
+    },
+    "far-fore": {
+      "crop": [
+        520,
+        650,
+        970,
+        905
+      ],
+      "p0": [
+        593,
+        776
+      ],
+      "p1": [
+        867,
+        778
+      ],
+      "length": 69,
+      "normalizedPivot": [
+        128,
+        256
+      ],
+      "normalizedEnd": [
+        197,
+        256
+      ]
+    }
+  },
+  "near": {
+    "shoulder": [
+      109,
+      326
+    ],
+    "upperLength": 95,
+    "foreLength": 98,
+    "gripX": 165,
+    "bendSign": 1
+  },
+  "far": {
+    "shoulder": [
+      195,
+      257
+    ],
+    "upperLength": 67,
+    "foreLength": 69,
+    "gripX": 258,
+    "bendSign": 1
+  },
+  "bar": {
+    "path": "bar.png",
+    "x": 50,
+    "topY": 154,
+    "bottomY": 278,
+    "width": 340,
+    "height": 112
+  },
+  "cycle": "barY=154+124*(1-cos(2*PI*progress))/2",
+  "pixelPolicy": "v1 base/bar alpha threshold 64, v2 arms alpha threshold 232; fixed nearest-neighbor normalization of each generated part; runtime rigid translations and rotations only"
+}
