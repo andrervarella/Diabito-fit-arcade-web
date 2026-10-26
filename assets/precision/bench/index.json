@@ -1,0 +1,63 @@
+{
+  "id": "approved-identity-bench-descent",
+  "frameWidth": 512,
+  "frameHeight": 512,
+  "anchor": [
+    320,
+    488
+  ],
+  "fps": 8,
+  "loop": false,
+  "direction": "descent",
+  "frames": [
+    {
+      "path": "/assets/precision/bench/frame-000.png",
+      "durationMs": 125
+    },
+    {
+      "path": "/assets/precision/bench/frame-001.png",
+      "durationMs": 125
+    },
+    {
+      "path": "/assets/precision/bench/frame-002.png",
+      "durationMs": 125
+    },
+    {
+      "path": "/assets/precision/bench/frame-003.png",
+      "durationMs": 125
+    },
+    {
+      "path": "/assets/precision/bench/frame-004.png",
+      "durationMs": 125
+    },
+    {
+      "path": "/assets/precision/bench/frame-005.png",
+      "durationMs": 125
+    },
+    {
+      "path": "/assets/precision/bench/frame-006.png",
+      "durationMs": 125
+    },
+    {
+      "path": "/assets/precision/bench/frame-007.png",
+      "durationMs": 125
+    },
+    {
+      "path": "/assets/precision/bench/frame-008.png",
+      "durationMs": 125
+    }
+  ],
+  "keyFrames": {
+    "top": 0,
+    "half": 4,
+    "bottom": 8
+  },
+  "preview": "/assets/precision/bench/preview.mp4",
+  "wholeCharacter": true,
+  "alignment": "authored whole drawings; both isolated endpoints at one shared0.35 source factor, strips at shared1.0 scale; fixed nearfoot320,488",
+  "source": "artifacts/bench-correction/application/endpoints-sheet-03.png + lower poses fromsheet-01.png",
+  "anatomicalReference": "artifacts/bench-correction/research/README.md",
+  "identityReference": "artifacts/bench-correction/proposal/raw/seed-01.png",
+  "lowEndpoint": "artifacts/bench-correction/application/low-05.png",
+  "topEndpoint": "artifacts/bench-correction/application/top-02.png"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "precision-squat",
+  "version": 1,
+  "kind": "whole-frame-animation",
+  "facing": "front",
+  "frameWidth": 512,
+  "frameHeight": 512,
+  "anchor": [
+    256,
+    480
+  ],
+  "sharedGround": 480,
+  "fps": 6,
+  "progress": "ordered descent; render reversed for ascent",
+  "bottomFrame": 7,
+  "frames": [
+    {
+      "path": "/assets/precision/squat/frame-000.png",
+      "durationMs": 167,
+      "depth": 0.0
+    },
+    {
+      "path": "/assets/precision/squat/frame-001.png",
+      "durationMs": 167,
+      "depth": 0.14285714285714285
+    },
+    {
+      "path": "/assets/precision/squat/frame-002.png",
+      "durationMs": 167,
+      "depth": 0.2857142857142857
+    },
+    {
+      "path": "/assets/precision/squat/frame-003.png",
+      "durationMs": 167,
+      "depth": 0.42857142857142855
+    },
+    {
+      "path": "/assets/precision/squat/frame-004.png",
+      "durationMs": 167,
+      "depth": 0.5714285714285714
+    },
+    {
+      "path": "/assets/precision/squat/frame-005.png",
+      "durationMs": 167,
+      "depth": 0.7142857142857143
+    },
+    {
+      "path": "/assets/precision/squat/frame-006.png",
+      "durationMs": 167,
+      "depth": 0.8571428571428571
+    },
+    {
+      "path": "/assets/precision/squat/frame-007.png",
+      "durationMs": 167,
+      "depth": 1.0
+    }
+  ],
+  "preview": "/assets/precision/squat/preview.mp4",
+  "sourceSha256": "348d25d6e8111b510c9cab2b8289dbfb1e41e85b1bc481b1bbc1035e6aeb4598",
+  "normalization": {
+    "sharedScale": 1.0467289719626167,
+    "independentFrameScale": false,
+    "wholeFrameTranslationOnly": true,
+    "groundAnchor": [
+      256,
+      480
+    ]
+  },
+  "reviewStatus": "candidate awaiting user visual approval",
+  "limits": [
+    "Eight distinct whole-body drawings provide stepped 2D motion, not continuous motion capture.",
+    "Image generation has small drawing/perspective variation between poses; no artificial frame interpolation is applied.",
+    "One source-cell edge contains low-alpha bar-end antialias fringe; opaque plate silhouettes remain complete."
+  ]
+}

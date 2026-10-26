@@ -1,0 +1,167 @@
+# Godot MCP para ChatGPT no navegador
+
+Esta ponte conecta um projeto **Godot 4** ao ChatGPT pelo protocolo MCP. Ela acompanha um pequeno projeto de exemplo; o Diabito atual continua sendo o jogo de navegador já publicado. Usar Godot como motor do Diabito seria uma etapa de migração separada.
+
+Ela permite consultar e editar arquivos do projeto, verificar scripts, executar o jogo sem interface, receber os logs, parar a execução e abrir o editor local. Não precisa instalar um addon dentro do Godot: o serviço usa os arquivos do projeto e a interface de linha de comando do próprio Godot.
+
+## Como a conexão funciona
+
+```text
+ChatGPT no navegador
+        ↓ HTTPS + autorização OAuth/PKCE
+Endereço público de um túnel
+        ↓
+Ponte MCP no seu computador, porta 3978
+        ↓
+Seu projeto e seu Godot 4
+```
+
+O computador e os dois terminais devem permanecer ligados enquanto você usa a conexão. Este pacote contém a ponte para instalar; ele não cadastra automaticamente um app na sua conta do ChatGPT.
+
+## 1. Prepare o computador
+
+Instale:
+
+- [Node.js 22 LTS ou mais recente](https://nodejs.org/).
+- [Godot 4](https://godotengine.org/download/).
+- [cloudflared](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/downloads/) para criar o endereço HTTPS. Também pode usar outro túnel ou proxy HTTPS que encaminhe todos os caminhos da ponte.
+
+Extraia este pacote em uma pasta. Abra um terminal **nessa pasta**, onde está `package.json`, e execute:
+
+```sh
+npm ci
+```
+
+## 2. Crie o endereço HTTPS
+
+Em um segundo terminal, execute e deixe aberto:
+
+```sh
+cloudflared tunnel --url http://127.0.0.1:3978
+```
+
+Copie o endereço mostrado pelo cloudflared, parecido com `https://algum-nome.trycloudflare.com`. O túnel pode avisar que ainda não há servidor local; a ponte será iniciada no próximo passo.
+
+Um túnel temporário pode gerar outro endereço ao reiniciar. Nesse caso, atualize a configuração e reconecte o app no ChatGPT.
+
+## 3. Configure a ponte
+
+Faça uma cópia de `.env.example` com o nome **`.env`**. Em alguns computadores, arquivos iniciados com ponto ficam ocultos. No PowerShell:
+
+```powershell
+Copy-Item .env.example .env
+```
+
+No macOS ou Linux:
+
+```sh
+cp .env.example .env
+```
+
+Abra `.env` em um editor de texto e preencha:
+
+```dotenv
+GODOT_PROJECT_PATH=./example-project
+GODOT_BIN=godot
+MCP_PUBLIC_URL=https://algum-nome.trycloudflare.com
+MCP_OWNER_PASSWORD=
+MCP_HOST=127.0.0.1
+MCP_PORT=3978
+```
+
+- **GODOT_PROJECT_PATH:** comece com o projeto de exemplo. Depois, use a pasta do seu projeto, que deve conter `project.godot`.
+- **GODOT_BIN:** use `godot` se esse comando já funciona no terminal; caso contrário, informe o caminho completo do executável.
+- **MCP_PUBLIC_URL:** cole a origem HTTPS do túnel, **sem `/mcp` no final**.
+- **MCP_OWNER_PASSWORD:** escolha uma senha exclusiva de pelo menos 16 caracteres. É a senha da ponte, usada somente na tela de autorização. Não é a senha do ChatGPT e não deve ser enviada na conversa.
+
+Exemplos de caminhos para `GODOT_BIN`:
+
+```text
+Windows: C:/Godot/Godot_v4.x-stable_win64_console.exe
+macOS:   /Applications/Godot.app/Contents/MacOS/Godot
+Linux:   /usr/local/bin/godot
+```
+
+No Windows, substitua o nome do arquivo pelo nome real do Godot que você baixou; a versão `console.exe` facilita a coleta dos logs. Use aspas no `.env` se um caminho contiver espaços.
+
+## 4. Inicie a ponte
+
+No terminal da pasta deste pacote:
+
+```sh
+node --env-file=.env src/server.mjs
+```
+
+Deixe esse terminal aberto. Visite o endereço do túnel terminado em **`/health`**; a resposta deve ter `"ok": true`. O caminho `/health` apenas confirma que o serviço está ativo; os comandos do projeto exigem autorização.
+
+## 5. Conecte no ChatGPT
+
+Na conta do ChatGPT que permite **modo desenvolvedor e apps personalizadas**, abra as configurações de apps, habilite o modo desenvolvedor e crie um app/conector MCP. A disponibilidade e os nomes dos controles podem variar conforme o plano e as configurações do administrador.
+
+Use:
+
+```text
+Nome: Godot local
+URL MCP: https://algum-nome.trycloudflare.com/mcp
+Autenticação: OAuth
+```
+
+A ponte fornece descoberta OAuth e cadastro dinâmico de cliente pelo SDK MCP. Ao conectar, ela abre a página **“Conectar ao seu Godot”**. Digite a `MCP_OWNER_PASSWORD` que você configurou e autorize o acesso solicitado.
+
+Em uma conversa com esse app habilitado, comece com:
+
+> Consulte as informações do projeto Godot e liste os arquivos, sem alterar nada.
+
+Depois, por exemplo:
+
+> Leia main.gd, altere a cor do texto da cena de exemplo e verifique o projeto no Godot.
+
+O fluxo completo de cadastro na conta real do ChatGPT deve ser concluído pelo dono da conta. Esta entrega foi verificada com clientes MCP reais do SDK e Godot real; não foi cadastrada automaticamente na sua conta.
+
+## Ferramentas disponíveis
+
+| Ferramenta | O que faz |
+| --- | --- |
+| `get_project_info` | Consulta o projeto configurado. |
+| `list_project_files` | Lista até 500 arquivos do projeto. |
+| `read_project_file` | Lê um recurso de texto e seu SHA256. |
+| `write_project_file` | Cria ou atualiza texto dentro do projeto; uma atualização exige o SHA256 lido antes. |
+| `check_project` | Faz importação/verificação headless e pode verificar um script `.gd`. |
+| `run_project` | Executa o jogo sem interface gráfica e coleta os logs. |
+| `get_project_output` | Consulta logs e estado da execução. |
+| `stop_project` | Para o processo que a própria ponte iniciou. |
+| `launch_editor` | Abre o editor local, quando há uma sessão gráfica disponível. |
+
+Editar cenas `.tscn`, scripts `.gd`, recursos e propriedades é possível pelos arquivos. A ponte não oferece clique remoto na interface do Godot nem captura automática da tela do editor. Para ver o jogo, abra o projeto no Godot local.
+
+## Desenvolvimento e testes
+
+```sh
+npm test
+```
+
+Os testes que usam Godot precisam do executável disponível como `godot` no PATH, ou da variável de ambiente `GODOT_BIN` definida no terminal. O comando `npm test` não lê `.env` automaticamente. Com Node 22+, também pode executar:
+
+```sh
+node --env-file=.env --test test/*.test.mjs
+```
+
+Para um cliente MCP instalado no mesmo computador, há uma alternativa local por STDIO:
+
+```sh
+node --env-file=.env src/server.mjs --stdio
+```
+
+O modo STDIO não é a conexão usada pelo ChatGPT no navegador. As variáveis de ambiente também podem ser fornecidas pelo próprio cliente local.
+
+## Detalhes de funcionamento
+
+- HTTP usa Streamable HTTP e OAuth com código de autorização, PKCE, escopos de leitura/escrita/execução e aprovação com senha do dono.
+- O serviço escuta em `127.0.0.1` por padrão; publique a ponte pelo túnel HTTPS, incluindo descoberta OAuth, `/approve`, `/token` e `/mcp`.
+- Credenciais e autorizações ficam em memória. Reiniciar a ponte exige conectar e autorizar novamente.
+- Caminhos ficam limitados ao projeto configurado. Arquivos binários e alterações fora dessa pasta não são aceitos.
+- A execução/importação roda código do próprio projeto, inclusive scripts de ferramenta e importação.
+- Esta é uma ponte pessoal para um dono, não um serviço com várias contas/projetos.
+- Godot facilita a montagem e a revisão das animações. A integração não transforma uma pose incorreta em uma animação correta automaticamente.
+
+Referências: [plugins do Godot](https://docs.godotengine.org/en/stable/tutorials/plugins/editor/making_plugins.html), [linha de comando do Godot](https://docs.godotengine.org/en/stable/tutorials/editor/command_line_tutorial.html), [autenticação no Apps SDK](https://developers.openai.com/apps-sdk/build/auth/).
