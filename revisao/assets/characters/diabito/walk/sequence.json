@@ -1,0 +1,36 @@
+{
+  "id": "walk",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "anchor": [
+    128,
+    240
+  ],
+  "frames": [
+    {
+      "path": "/assets/characters/diabito/walk/frame-000.png",
+      "durationMs": 135
+    },
+    {
+      "path": "/assets/characters/diabito/walk/frame-001.png",
+      "durationMs": 135
+    },
+    {
+      "path": "/assets/characters/diabito/walk/frame-002.png",
+      "durationMs": 135
+    },
+    {
+      "path": "/assets/characters/diabito/walk/frame-003.png",
+      "durationMs": 135
+    },
+    {
+      "path": "/assets/characters/diabito/walk/frame-004.png",
+      "durationMs": 135
+    },
+    {
+      "path": "/assets/characters/diabito/walk/frame-005.png",
+      "durationMs": 135
+    }
+  ],
+  "loop": true
+}

@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "facing": "front",
+  "style": "2D inked cel shading",
+  "canvas": [
+    512,
+    512
+  ],
+  "source": "source-kit.png",
+  "sourceSha256": "4d35fbc9e6c9fde03e2f9252eaf9d44c888acc64e79ff1d46e3ff6ce93dc9225",
+  "limbRefinement": "limb-refinement.png",
+  "limbRefinementSha256": "84584990f68d9724974f35494670450157a2cd994095b574ef886eafdc6fe169",
+  "generator": "image_gen.imagegen",
+  "generatedAt": "2026-10-25",
+  "references": [
+    "referencias/originais/1000291392.webp",
+    "public/assets/journey/bodies/elite/front/frame-000.png"
+  ],
+  "sourceBoxes": {
+    "upper-body": [
+      11,
+      73,
+      915,
+      722
+    ],
+    "thigh": [
+      953,
+      200,
+      1226,
+      625
+    ],
+    "shin": [
+      293,
+      830,
+      545,
+      1160
+    ],
+    "foot": [
+      845,
+      1012,
+      1148,
+      1212
+    ]
+  },
+  "renderRectangles": {
+    "upper-body": [
+      0,
+      0,
+      440,
+      316
+    ],
+    "thigh": [
+      -46,
+      -18,
+      92,
+      124
+    ],
+    "shin": [
+      -43,
+      -20,
+      86,
+      115
+    ],
+    "foot": [
+      -36,
+      -13,
+      90,
+      54
+    ]
+  },
+  "pivotAnchors": {
+    "thigh": {
+      "hip": [
+        46,
+        18
+      ],
+      "knee": [
+        46,
+        106
+      ]
+    },
+    "shin": {
+      "knee": [
+        43,
+        20
+      ],
+      "ankle": [
+        43,
+        100
+      ]
+    },
+    "foot": {
+      "ankle": [
+        36,
+        13
+      ]
+    }
+  },
+  "upperBody": {
+    "position": [
+      36,
+      24
+    ],
+    "size": [
+      440,
+      316
+    ],
+    "scale": 1,
+    "rotation": 0,
+    "translationOnly": [
+      0,
+      72
+    ]
+  },
+  "hips": {
+    "left": [
+      212,
+      320
+    ],
+    "right": [
+      300,
+      320
+    ]
+  },
+  "fixedAnkles": {
+    "left": [
+      154,
+      466
+    ],
+    "right": [
+      358,
+      466
+    ]
+  },
+  "boneLengths": {
+    "thigh": 88,
+    "shin": 80
+  },
+  "layerOrder": [
+    "left-shin",
+    "left-thigh",
+    "right-shin",
+    "right-thigh",
+    "left-foot",
+    "right-foot",
+    "upper-body"
+  ],
+  "processing": [
+    "one focused semantic imagegen edit broadens limbs and removes isolated joint caps",
+    "preserve original upper-body pixels",
+    "threshold alpha <=8 to transparent and >=245 to opaque",
+    "region crop and alpha trim, including flat cuts across overlap ends to remove remaining endcap contours",
+    "fixed-size resampling at runtime",
+    "mirror opposite-side limb",
+    "rigid rotate and translate only"
+  ],
+  "qualityLimits": [
+    "Front projection uses outward knee bends rather than perspective foreshortening.",
+    "The same generated thigh/shin are mirrored for symmetry.",
+    "Foot art is normalized to a broad 90x54 footprint and remains rigid."
+  ]
+}

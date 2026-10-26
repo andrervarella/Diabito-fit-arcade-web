@@ -1,0 +1,44 @@
+{
+  "id": "bench",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "anchor": [
+    128,
+    240
+  ],
+  "frames": [
+    {
+      "path": "/assets/characters/diabito/bench/frame-000.png",
+      "durationMs": 250
+    },
+    {
+      "path": "/assets/characters/diabito/bench/frame-001.png",
+      "durationMs": 250
+    },
+    {
+      "path": "/assets/characters/diabito/bench/frame-002.png",
+      "durationMs": 250
+    },
+    {
+      "path": "/assets/characters/diabito/bench/frame-003.png",
+      "durationMs": 250
+    },
+    {
+      "path": "/assets/characters/diabito/bench/frame-004.png",
+      "durationMs": 250
+    },
+    {
+      "path": "/assets/characters/diabito/bench/frame-005.png",
+      "durationMs": 250
+    },
+    {
+      "path": "/assets/characters/diabito/bench/frame-006.png",
+      "durationMs": 250
+    },
+    {
+      "path": "/assets/characters/diabito/bench/frame-007.png",
+      "durationMs": 250
+    }
+  ],
+  "loop": true
+}

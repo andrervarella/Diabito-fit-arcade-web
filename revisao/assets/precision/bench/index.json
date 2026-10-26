@@ -1,0 +1,60 @@
+{
+  "id": "precision-bench-descent",
+  "frameWidth": 512,
+  "frameHeight": 512,
+  "anchor": [
+    256,
+    477
+  ],
+  "fps": 8,
+  "loop": false,
+  "direction": "descent",
+  "frames": [
+    {
+      "path": "/assets/precision/bench/frame-000.png",
+      "durationMs": 125
+    },
+    {
+      "path": "/assets/precision/bench/frame-001.png",
+      "durationMs": 125
+    },
+    {
+      "path": "/assets/precision/bench/frame-002.png",
+      "durationMs": 125
+    },
+    {
+      "path": "/assets/precision/bench/frame-003.png",
+      "durationMs": 125
+    },
+    {
+      "path": "/assets/precision/bench/frame-004.png",
+      "durationMs": 125
+    },
+    {
+      "path": "/assets/precision/bench/frame-005.png",
+      "durationMs": 125
+    },
+    {
+      "path": "/assets/precision/bench/frame-006.png",
+      "durationMs": 125
+    },
+    {
+      "path": "/assets/precision/bench/frame-007.png",
+      "durationMs": 125
+    },
+    {
+      "path": "/assets/precision/bench/frame-008.png",
+      "durationMs": 125
+    }
+  ],
+  "keyFrames": {
+    "top": 0,
+    "half": 4,
+    "bottom": 8
+  },
+  "preview": "/assets/precision/bench/preview.mp4",
+  "wholeCharacter": true,
+  "alignment": "shared sheet scale1.22594142, approved seed bench anchor42,358; all actual whole-sheet drawings",
+  "source": "artifacts/precision-assets/bench/raw/attempt-07-ascent-sheet.png",
+  "anatomicalReference": "artifacts/precision-assets/bench/bottom-seed-05-preview.png"
+}

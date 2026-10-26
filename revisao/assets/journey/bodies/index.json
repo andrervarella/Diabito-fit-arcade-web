@@ -1,0 +1,164 @@
+{
+  "version": 1,
+  "width": 512,
+  "height": 512,
+  "anchor": [
+    256,
+    480
+  ],
+  "clips": {
+    "body-initial-idle": {
+      "frames": [
+        "/assets/journey/bodies/initial/idle/frame-000.png",
+        "/assets/journey/bodies/initial/idle/frame-001.png",
+        "/assets/journey/bodies/initial/idle/frame-002.png",
+        "/assets/journey/bodies/initial/idle/frame-003.png"
+      ],
+      "frameMs": 220,
+      "loop": true
+    },
+    "body-initial-front": {
+      "frames": [
+        "/assets/journey/bodies/initial/front/frame-000.png"
+      ],
+      "frameMs": 1000,
+      "loop": false
+    },
+    "body-initial-side": {
+      "frames": [
+        "/assets/journey/bodies/initial/side/frame-000.png"
+      ],
+      "frameMs": 1000,
+      "loop": false
+    },
+    "body-initial-back": {
+      "frames": [
+        "/assets/journey/bodies/initial/back/frame-000.png"
+      ],
+      "frameMs": 1000,
+      "loop": false
+    },
+    "body-initial-abs": {
+      "frames": [
+        "/assets/journey/bodies/initial/abs/frame-000.png"
+      ],
+      "frameMs": 1000,
+      "loop": false
+    },
+    "body-initial-final": {
+      "frames": [
+        "/assets/journey/bodies/initial/final/frame-000.png"
+      ],
+      "frameMs": 1000,
+      "loop": false
+    },
+    "body-elite-idle": {
+      "frames": [
+        "/assets/journey/bodies/elite/idle/frame-000.png",
+        "/assets/journey/bodies/elite/idle/frame-001.png",
+        "/assets/journey/bodies/elite/idle/frame-002.png",
+        "/assets/journey/bodies/elite/idle/frame-003.png"
+      ],
+      "frameMs": 220,
+      "loop": true
+    },
+    "body-elite-front": {
+      "frames": [
+        "/assets/journey/bodies/elite/front/frame-000.png"
+      ],
+      "frameMs": 1000,
+      "loop": false
+    },
+    "body-elite-side": {
+      "frames": [
+        "/assets/journey/bodies/elite/side/frame-000.png"
+      ],
+      "frameMs": 1000,
+      "loop": false
+    },
+    "body-elite-back": {
+      "frames": [
+        "/assets/journey/bodies/elite/back/frame-000.png"
+      ],
+      "frameMs": 1000,
+      "loop": false
+    },
+    "body-elite-abs": {
+      "frames": [
+        "/assets/journey/bodies/elite/abs/frame-000.png"
+      ],
+      "frameMs": 1000,
+      "loop": false
+    },
+    "body-elite-final": {
+      "frames": [
+        "/assets/journey/bodies/elite/final/frame-000.png"
+      ],
+      "frameMs": 1000,
+      "loop": false
+    },
+    "body-initial-rear-idle": {
+      "frames": [
+        "/assets/journey/bodies/initial/rear-idle/frame-000.png"
+      ],
+      "frameMs": 1000,
+      "loop": false
+    },
+    "body-initial-rear-abs": {
+      "frames": [
+        "/assets/journey/bodies/initial/rear-abs/frame-000.png"
+      ],
+      "frameMs": 1000,
+      "loop": false
+    },
+    "body-initial-rear-final": {
+      "frames": [
+        "/assets/journey/bodies/initial/rear-final/frame-000.png"
+      ],
+      "frameMs": 1000,
+      "loop": false
+    },
+    "body-intermediate-rear-idle": {
+      "frames": [
+        "/assets/journey/bodies/intermediate/rear-idle/frame-000.png"
+      ],
+      "frameMs": 1000,
+      "loop": false
+    },
+    "body-intermediate-rear-abs": {
+      "frames": [
+        "/assets/journey/bodies/intermediate/rear-abs/frame-000.png"
+      ],
+      "frameMs": 1000,
+      "loop": false
+    },
+    "body-intermediate-rear-final": {
+      "frames": [
+        "/assets/journey/bodies/intermediate/rear-final/frame-000.png"
+      ],
+      "frameMs": 1000,
+      "loop": false
+    },
+    "body-elite-rear-idle": {
+      "frames": [
+        "/assets/journey/bodies/elite/rear-idle/frame-000.png"
+      ],
+      "frameMs": 1000,
+      "loop": false
+    },
+    "body-elite-rear-abs": {
+      "frames": [
+        "/assets/journey/bodies/elite/rear-abs/frame-000.png"
+      ],
+      "frameMs": 1000,
+      "loop": false
+    },
+    "body-elite-rear-final": {
+      "frames": [
+        "/assets/journey/bodies/elite/rear-final/frame-000.png"
+      ],
+      "frameMs": 1000,
+      "loop": false
+    }
+  }
+}

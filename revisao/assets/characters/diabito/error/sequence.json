@@ -1,0 +1,24 @@
+{
+  "id": "error",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "anchor": [
+    128,
+    240
+  ],
+  "frames": [
+    {
+      "path": "/assets/characters/diabito/error/frame-000.png",
+      "durationMs": 350
+    },
+    {
+      "path": "/assets/characters/diabito/error/frame-001.png",
+      "durationMs": 350
+    },
+    {
+      "path": "/assets/characters/diabito/error/frame-002.png",
+      "durationMs": 350
+    }
+  ],
+  "loop": false
+}

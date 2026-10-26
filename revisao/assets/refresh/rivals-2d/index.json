@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "width": 512,
+  "height": 512,
+  "anchor": [
+    256,
+    480
+  ],
+  "clips": {
+    "rival-brasa-run": {
+      "frames": [
+        "/assets/refresh/rivals-2d/brasa/run-000.png",
+        "/assets/refresh/rivals-2d/brasa/run-001.png",
+        "/assets/refresh/rivals-2d/brasa/run-002.png",
+        "/assets/refresh/rivals-2d/brasa/run-003.png",
+        "/assets/refresh/rivals-2d/brasa/run-004.png",
+        "/assets/refresh/rivals-2d/brasa/run-005.png",
+        "/assets/refresh/rivals-2d/brasa/run-006.png",
+        "/assets/refresh/rivals-2d/brasa/run-007.png"
+      ],
+      "frameMs": 100,
+      "loop": true,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "rival-granito-run": {
+      "frames": [
+        "/assets/refresh/rivals-2d/granito/run-000.png",
+        "/assets/refresh/rivals-2d/granito/run-001.png",
+        "/assets/refresh/rivals-2d/granito/run-002.png",
+        "/assets/refresh/rivals-2d/granito/run-003.png",
+        "/assets/refresh/rivals-2d/granito/run-004.png",
+        "/assets/refresh/rivals-2d/granito/run-005.png",
+        "/assets/refresh/rivals-2d/granito/run-006.png",
+        "/assets/refresh/rivals-2d/granito/run-007.png"
+      ],
+      "frameMs": 100,
+      "loop": true,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "rival-trovao-run": {
+      "frames": [
+        "/assets/refresh/rivals-2d/trovao/run-000.png",
+        "/assets/refresh/rivals-2d/trovao/run-001.png",
+        "/assets/refresh/rivals-2d/trovao/run-002.png",
+        "/assets/refresh/rivals-2d/trovao/run-003.png",
+        "/assets/refresh/rivals-2d/trovao/run-004.png",
+        "/assets/refresh/rivals-2d/trovao/run-005.png",
+        "/assets/refresh/rivals-2d/trovao/run-006.png",
+        "/assets/refresh/rivals-2d/trovao/run-007.png"
+      ],
+      "frameMs": 100,
+      "loop": true,
+      "anchor": [
+        256,
+        480
+      ]
+    },
+    "rival-titan-run": {
+      "frames": [
+        "/assets/refresh/rivals-2d/titan/run-000.png",
+        "/assets/refresh/rivals-2d/titan/run-001.png",
+        "/assets/refresh/rivals-2d/titan/run-002.png",
+        "/assets/refresh/rivals-2d/titan/run-003.png",
+        "/assets/refresh/rivals-2d/titan/run-004.png",
+        "/assets/refresh/rivals-2d/titan/run-005.png",
+        "/assets/refresh/rivals-2d/titan/run-006.png",
+        "/assets/refresh/rivals-2d/titan/run-007.png"
+      ],
+      "frameMs": 100,
+      "loop": true,
+      "anchor": [
+        256,
+        480
+      ]
+    }
+  }
+}

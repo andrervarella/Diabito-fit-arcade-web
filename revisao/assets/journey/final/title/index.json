@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "role": "official-title-character",
+  "asset": "public/assets/journey/final/title/diabito-official.webp",
+  "officialSource": "referencias/originais/1000291392.webp",
+  "origin": "user-supplied-official-archive",
+  "literalCopy": true,
+  "sha256": "6a4805ec3a2375d4ab7ab950f9c93fca930bd40d540e17bc1bee63703e04c0ae",
+  "width": 368,
+  "height": 500,
+  "note": "Official supplied Diabito is used directly in the title composition; no generated face, body proportions or glossy 3D replacement."
+}

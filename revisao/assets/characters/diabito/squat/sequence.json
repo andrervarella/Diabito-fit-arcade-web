@@ -1,0 +1,44 @@
+{
+  "id": "squat",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "anchor": [
+    128,
+    240
+  ],
+  "frames": [
+    {
+      "path": "/assets/characters/diabito/squat/frame-000.png",
+      "durationMs": 250
+    },
+    {
+      "path": "/assets/characters/diabito/squat/frame-001.png",
+      "durationMs": 300
+    },
+    {
+      "path": "/assets/characters/diabito/squat/frame-002.png",
+      "durationMs": 300
+    },
+    {
+      "path": "/assets/characters/diabito/squat/frame-003.png",
+      "durationMs": 350
+    },
+    {
+      "path": "/assets/characters/diabito/squat/frame-004.png",
+      "durationMs": 200
+    },
+    {
+      "path": "/assets/characters/diabito/squat/frame-005.png",
+      "durationMs": 250
+    },
+    {
+      "path": "/assets/characters/diabito/squat/frame-006.png",
+      "durationMs": 250
+    },
+    {
+      "path": "/assets/characters/diabito/squat/frame-007.png",
+      "durationMs": 250
+    }
+  ],
+  "loop": false
+}

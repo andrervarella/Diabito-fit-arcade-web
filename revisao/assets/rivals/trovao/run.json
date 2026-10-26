@@ -1,0 +1,31 @@
+{
+  "id": "trovao-run",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "anchor": [
+    128,
+    240
+  ],
+  "loop": true,
+  "frames": [
+    {
+      "path": "/assets/rivals/trovao/run-000.png",
+      "durationMs": 100
+    },
+    {
+      "path": "/assets/rivals/trovao/run-001.png",
+      "durationMs": 100
+    },
+    {
+      "path": "/assets/rivals/trovao/run-002.png",
+      "durationMs": 100
+    },
+    {
+      "path": "/assets/rivals/trovao/run-003.png",
+      "durationMs": 100
+    }
+  ],
+  "source": "exec-ea52d3c0-5e24-41ca-ad1c-23caed19b112.png",
+  "reviewStatus": "PASSED_STATIC_SEQUENCE_INSPECTION",
+  "notes": "Four distinct full-body frames with alternate foreground arm poses and contact/compression/contact/flight leg shapes. In-engine motion review remains required."
+}

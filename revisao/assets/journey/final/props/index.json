@@ -1,0 +1,403 @@
+{
+  "schema": 1,
+  "kind": "static-prop-pack",
+  "description": "Transparent 2D preparation props with faithful Diabo Verde label art.",
+  "frameSize": [
+    512,
+    512
+  ],
+  "anchor": [
+    256,
+    480
+  ],
+  "alpha": "RGBA, transparent outside object; full cap and base retained",
+  "props": {
+    "preworkout-jar": {
+      "role": "prop",
+      "label": "Closed Diabo Verde jar",
+      "use": "closed product before opening",
+      "path": "/assets/journey/final/props/preworkout-jar.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "anchor": [
+        256,
+        480
+      ],
+      "opaqueBounds": [
+        70,
+        60,
+        441,
+        480
+      ],
+      "variants": {
+        "256": {
+          "path": "/assets/journey/final/props/preworkout-jar-256.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "anchor": [
+            128,
+            240
+          ]
+        },
+        "128": {
+          "path": "/assets/journey/final/props/preworkout-jar-128.png",
+          "dimensions": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            120
+          ]
+        }
+      }
+    },
+    "preworkout-jar-open": {
+      "role": "prop",
+      "label": "Open Diabo Verde jar",
+      "use": "open product during scoop action",
+      "path": "/assets/journey/final/props/preworkout-jar-open.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "anchor": [
+        256,
+        480
+      ],
+      "opaqueBounds": [
+        63,
+        79,
+        448,
+        480
+      ],
+      "variants": {
+        "256": {
+          "path": "/assets/journey/final/props/preworkout-jar-open-256.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "anchor": [
+            128,
+            240
+          ]
+        },
+        "128": {
+          "path": "/assets/journey/final/props/preworkout-jar-open-128.png",
+          "dimensions": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            120
+          ]
+        }
+      }
+    },
+    "lid": {
+      "role": "prop",
+      "label": "Matching jar lid",
+      "use": "detached product lid",
+      "path": "/assets/journey/final/props/lid.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "anchor": [
+        256,
+        480
+      ],
+      "opaqueBounds": [
+        81,
+        325,
+        431,
+        480
+      ],
+      "variants": {
+        "256": {
+          "path": "/assets/journey/final/props/lid-256.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "anchor": [
+            128,
+            240
+          ]
+        },
+        "128": {
+          "path": "/assets/journey/final/props/lid-128.png",
+          "dimensions": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            120
+          ]
+        }
+      }
+    },
+    "shaker": {
+      "role": "prop",
+      "label": "Open unbranded shaker",
+      "use": "open drinking prop with literal FTW DOM overlay",
+      "path": "/assets/journey/final/props/shaker.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "anchor": [
+        256,
+        480
+      ],
+      "opaqueBounds": [
+        148,
+        52,
+        364,
+        480
+      ],
+      "variants": {
+        "256": {
+          "path": "/assets/journey/final/props/shaker-256.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "anchor": [
+            128,
+            240
+          ]
+        },
+        "128": {
+          "path": "/assets/journey/final/props/shaker-128.png",
+          "dimensions": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            120
+          ]
+        }
+      },
+      "brandOverlay": {
+        "source": "/assets/brands/ftw.png",
+        "rect": [
+          164,
+          180,
+          184,
+          184
+        ],
+        "note": "Use literal official PNG; transparent padding is included in this rect."
+      },
+      "state": "open"
+    },
+    "scoop": {
+      "role": "prop",
+      "label": "Green powder scoop",
+      "use": "white scoop with green powder",
+      "path": "/assets/journey/final/props/scoop.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "anchor": [
+        256,
+        480
+      ],
+      "opaqueBounds": [
+        129,
+        360,
+        383,
+        480
+      ],
+      "variants": {
+        "256": {
+          "path": "/assets/journey/final/props/scoop-256.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "anchor": [
+            128,
+            240
+          ]
+        },
+        "128": {
+          "path": "/assets/journey/final/props/scoop-128.png",
+          "dimensions": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            120
+          ]
+        }
+      }
+    },
+    "water-glass": {
+      "role": "prop",
+      "label": "Glass of water",
+      "use": "water pour prop",
+      "path": "/assets/journey/final/props/water-glass.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "anchor": [
+        256,
+        480
+      ],
+      "opaqueBounds": [
+        145,
+        128,
+        366,
+        480
+      ],
+      "variants": {
+        "256": {
+          "path": "/assets/journey/final/props/water-glass-256.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "anchor": [
+            128,
+            240
+          ]
+        },
+        "128": {
+          "path": "/assets/journey/final/props/water-glass-128.png",
+          "dimensions": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            120
+          ]
+        }
+      }
+    },
+    "shaker-open": {
+      "role": "prop",
+      "label": "Open unbranded shaker",
+      "use": "open drinking prop with literal FTW DOM overlay",
+      "path": "/assets/journey/final/props/shaker-open.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "anchor": [
+        256,
+        480
+      ],
+      "opaqueBounds": [
+        148,
+        52,
+        364,
+        480
+      ],
+      "variants": {
+        "256": {
+          "path": "/assets/journey/final/props/shaker-open-256.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "anchor": [
+            128,
+            240
+          ]
+        },
+        "128": {
+          "path": "/assets/journey/final/props/shaker-open-128.png",
+          "dimensions": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            120
+          ]
+        }
+      },
+      "brandOverlay": {
+        "source": "/assets/brands/ftw.png",
+        "rect": [
+          164,
+          180,
+          184,
+          184
+        ],
+        "note": "Use literal official PNG; transparent padding is included in this rect."
+      },
+      "state": "open",
+      "aliasOf": "shaker"
+    },
+    "shaker-closed": {
+      "role": "prop",
+      "label": "Closed unbranded shaker",
+      "use": "sealed cap during vigorous shaking; literal FTW DOM overlay",
+      "path": "/assets/journey/final/props/shaker-closed.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "anchor": [
+        256,
+        480
+      ],
+      "opaqueBounds": [
+        148,
+        59,
+        364,
+        480
+      ],
+      "variants": {
+        "256": {
+          "path": "/assets/journey/final/props/shaker-closed-256.png",
+          "dimensions": [
+            256,
+            256
+          ],
+          "anchor": [
+            128,
+            240
+          ]
+        },
+        "128": {
+          "path": "/assets/journey/final/props/shaker-closed-128.png",
+          "dimensions": [
+            128,
+            128
+          ],
+          "anchor": [
+            64,
+            120
+          ]
+        }
+      },
+      "brandOverlay": {
+        "source": "/assets/brands/ftw.png",
+        "rect": [
+          164,
+          180,
+          184,
+          184
+        ],
+        "note": "Use literal official PNG; transparent padding is included in this rect."
+      },
+      "state": "closed"
+    }
+  },
+  "shakerDefaultForAgitation": "shaker-closed"
+}

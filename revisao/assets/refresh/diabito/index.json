@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "clips": {
+    "bench": {
+      "frames": [
+        "/assets/refresh/diabito/bench/frame-000.png",
+        "/assets/refresh/diabito/bench/frame-001.png",
+        "/assets/refresh/diabito/bench/frame-002.png",
+        "/assets/refresh/diabito/bench/frame-003.png",
+        "/assets/refresh/diabito/bench/frame-004.png",
+        "/assets/refresh/diabito/bench/frame-005.png",
+        "/assets/refresh/diabito/bench/frame-006.png",
+        "/assets/refresh/diabito/bench/frame-007.png",
+        "/assets/refresh/diabito/bench/frame-008.png",
+        "/assets/refresh/diabito/bench/frame-009.png",
+        "/assets/refresh/diabito/bench/frame-010.png",
+        "/assets/refresh/diabito/bench/frame-011.png",
+        "/assets/refresh/diabito/bench/frame-012.png",
+        "/assets/refresh/diabito/bench/frame-013.png",
+        "/assets/refresh/diabito/bench/frame-014.png",
+        "/assets/refresh/diabito/bench/frame-015.png"
+      ],
+      "frameMs": 125,
+      "loop": false
+    },
+    "squat": {
+      "frames": [
+        "/assets/refresh/diabito/squat/frame-000.png",
+        "/assets/refresh/diabito/squat/frame-001.png",
+        "/assets/refresh/diabito/squat/frame-002.png",
+        "/assets/refresh/diabito/squat/frame-003.png",
+        "/assets/refresh/diabito/squat/frame-004.png",
+        "/assets/refresh/diabito/squat/frame-005.png",
+        "/assets/refresh/diabito/squat/frame-006.png",
+        "/assets/refresh/diabito/squat/frame-007.png"
+      ],
+      "frameMs": 125,
+      "loop": false
+    },
+    "run": {
+      "frames": [
+        "/assets/refresh/diabito/run/frame-000.png",
+        "/assets/refresh/diabito/run/frame-001.png",
+        "/assets/refresh/diabito/run/frame-002.png",
+        "/assets/refresh/diabito/run/frame-003.png",
+        "/assets/refresh/diabito/run/frame-004.png",
+        "/assets/refresh/diabito/run/frame-005.png",
+        "/assets/refresh/diabito/run/frame-006.png",
+        "/assets/refresh/diabito/run/frame-007.png"
+      ],
+      "frameMs": 100,
+      "loop": true
+    },
+    "front-happy": {
+      "frames": [
+        "/assets/refresh/diabito/front-happy/frame-000.png",
+        "/assets/refresh/diabito/front-happy/frame-001.png",
+        "/assets/refresh/diabito/front-happy/frame-002.png",
+        "/assets/refresh/diabito/front-happy/frame-003.png",
+        "/assets/refresh/diabito/front-happy/frame-004.png",
+        "/assets/refresh/diabito/front-happy/frame-005.png",
+        "/assets/refresh/diabito/front-happy/frame-006.png",
+        "/assets/refresh/diabito/front-happy/frame-007.png"
+      ],
+      "frameMs": 100,
+      "loop": true
+    },
+    "front-focused": {
+      "frames": [
+        "/assets/refresh/diabito/front-focused/frame-000.png",
+        "/assets/refresh/diabito/front-focused/frame-001.png",
+        "/assets/refresh/diabito/front-focused/frame-002.png",
+        "/assets/refresh/diabito/front-focused/frame-003.png",
+        "/assets/refresh/diabito/front-focused/frame-004.png",
+        "/assets/refresh/diabito/front-focused/frame-005.png",
+        "/assets/refresh/diabito/front-focused/frame-006.png",
+        "/assets/refresh/diabito/front-focused/frame-007.png"
+      ],
+      "frameMs": 100,
+      "loop": true
+    },
+    "front-panic": {
+      "frames": [
+        "/assets/refresh/diabito/front-panic/frame-000.png",
+        "/assets/refresh/diabito/front-panic/frame-001.png",
+        "/assets/refresh/diabito/front-panic/frame-002.png",
+        "/assets/refresh/diabito/front-panic/frame-003.png",
+        "/assets/refresh/diabito/front-panic/frame-004.png",
+        "/assets/refresh/diabito/front-panic/frame-005.png",
+        "/assets/refresh/diabito/front-panic/frame-006.png",
+        "/assets/refresh/diabito/front-panic/frame-007.png"
+      ],
+      "frameMs": 100,
+      "loop": true
+    },
+    "idle": {
+      "frames": [
+        "/assets/refresh/diabito/idle/frame-000.png",
+        "/assets/refresh/diabito/idle/frame-001.png",
+        "/assets/refresh/diabito/idle/frame-002.png",
+        "/assets/refresh/diabito/idle/frame-003.png"
+      ],
+      "frameMs": 180,
+      "loop": true
+    }
+  }
+}

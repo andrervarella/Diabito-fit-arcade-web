@@ -1,0 +1,310 @@
+{
+  "walk": {
+    "id": "walk",
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "anchor": [
+      128,
+      240
+    ],
+    "frames": [
+      {
+        "path": "/assets/characters/diabito/walk/frame-000.png",
+        "durationMs": 135
+      },
+      {
+        "path": "/assets/characters/diabito/walk/frame-001.png",
+        "durationMs": 135
+      },
+      {
+        "path": "/assets/characters/diabito/walk/frame-002.png",
+        "durationMs": 135
+      },
+      {
+        "path": "/assets/characters/diabito/walk/frame-003.png",
+        "durationMs": 135
+      },
+      {
+        "path": "/assets/characters/diabito/walk/frame-004.png",
+        "durationMs": 135
+      },
+      {
+        "path": "/assets/characters/diabito/walk/frame-005.png",
+        "durationMs": 135
+      }
+    ],
+    "loop": true
+  },
+  "run": {
+    "id": "run",
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "anchor": [
+      128,
+      240
+    ],
+    "frames": [
+      {
+        "path": "/assets/characters/diabito/run/frame-000.png",
+        "durationMs": 88
+      },
+      {
+        "path": "/assets/characters/diabito/run/frame-001.png",
+        "durationMs": 88
+      },
+      {
+        "path": "/assets/characters/diabito/run/frame-002.png",
+        "durationMs": 88
+      },
+      {
+        "path": "/assets/characters/diabito/run/frame-003.png",
+        "durationMs": 88
+      },
+      {
+        "path": "/assets/characters/diabito/run/frame-004.png",
+        "durationMs": 88
+      },
+      {
+        "path": "/assets/characters/diabito/run/frame-005.png",
+        "durationMs": 88
+      },
+      {
+        "path": "/assets/characters/diabito/run/frame-006.png",
+        "durationMs": 88
+      },
+      {
+        "path": "/assets/characters/diabito/run/frame-007.png",
+        "durationMs": 88
+      }
+    ],
+    "loop": true
+  },
+  "idle": {
+    "id": "idle",
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "anchor": [
+      128,
+      240
+    ],
+    "frames": [
+      {
+        "path": "/assets/characters/diabito/idle/frame-000.png",
+        "durationMs": 260
+      },
+      {
+        "path": "/assets/characters/diabito/idle/frame-001.png",
+        "durationMs": 260
+      },
+      {
+        "path": "/assets/characters/diabito/idle/frame-002.png",
+        "durationMs": 260
+      },
+      {
+        "path": "/assets/characters/diabito/idle/frame-003.png",
+        "durationMs": 260
+      }
+    ],
+    "loop": true
+  },
+  "bench": {
+    "id": "bench",
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "anchor": [
+      128,
+      240
+    ],
+    "frames": [
+      {
+        "path": "/assets/characters/diabito/bench/frame-000.png",
+        "durationMs": 250
+      },
+      {
+        "path": "/assets/characters/diabito/bench/frame-001.png",
+        "durationMs": 250
+      },
+      {
+        "path": "/assets/characters/diabito/bench/frame-002.png",
+        "durationMs": 250
+      },
+      {
+        "path": "/assets/characters/diabito/bench/frame-003.png",
+        "durationMs": 250
+      },
+      {
+        "path": "/assets/characters/diabito/bench/frame-004.png",
+        "durationMs": 250
+      },
+      {
+        "path": "/assets/characters/diabito/bench/frame-005.png",
+        "durationMs": 250
+      },
+      {
+        "path": "/assets/characters/diabito/bench/frame-006.png",
+        "durationMs": 250
+      },
+      {
+        "path": "/assets/characters/diabito/bench/frame-007.png",
+        "durationMs": 250
+      }
+    ],
+    "loop": true
+  },
+  "squat": {
+    "id": "squat",
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "anchor": [
+      128,
+      240
+    ],
+    "frames": [
+      {
+        "path": "/assets/characters/diabito/squat/frame-000.png",
+        "durationMs": 250
+      },
+      {
+        "path": "/assets/characters/diabito/squat/frame-001.png",
+        "durationMs": 300
+      },
+      {
+        "path": "/assets/characters/diabito/squat/frame-002.png",
+        "durationMs": 300
+      },
+      {
+        "path": "/assets/characters/diabito/squat/frame-003.png",
+        "durationMs": 350
+      },
+      {
+        "path": "/assets/characters/diabito/squat/frame-004.png",
+        "durationMs": 200
+      },
+      {
+        "path": "/assets/characters/diabito/squat/frame-005.png",
+        "durationMs": 250
+      },
+      {
+        "path": "/assets/characters/diabito/squat/frame-006.png",
+        "durationMs": 250
+      },
+      {
+        "path": "/assets/characters/diabito/squat/frame-007.png",
+        "durationMs": 250
+      }
+    ],
+    "loop": false
+  },
+  "poses": {
+    "id": "poses",
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "anchor": [
+      128,
+      240
+    ],
+    "frames": [
+      {
+        "path": "/assets/characters/diabito/poses/frame-000.png",
+        "durationMs": 1000
+      },
+      {
+        "path": "/assets/characters/diabito/poses/frame-001.png",
+        "durationMs": 1000
+      },
+      {
+        "path": "/assets/characters/diabito/poses/frame-002.png",
+        "durationMs": 1000
+      },
+      {
+        "path": "/assets/characters/diabito/poses/frame-003.png",
+        "durationMs": 1000
+      },
+      {
+        "path": "/assets/characters/diabito/poses/frame-004.png",
+        "durationMs": 1000
+      }
+    ],
+    "loop": false
+  },
+  "celebrate": {
+    "id": "celebrate",
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "anchor": [
+      128,
+      240
+    ],
+    "frames": [
+      {
+        "path": "/assets/characters/diabito/celebrate/frame-000.png",
+        "durationMs": 180
+      },
+      {
+        "path": "/assets/characters/diabito/celebrate/frame-001.png",
+        "durationMs": 180
+      },
+      {
+        "path": "/assets/characters/diabito/celebrate/frame-002.png",
+        "durationMs": 180
+      },
+      {
+        "path": "/assets/characters/diabito/celebrate/frame-003.png",
+        "durationMs": 180
+      }
+    ],
+    "loop": false
+  },
+  "error": {
+    "id": "error",
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "anchor": [
+      128,
+      240
+    ],
+    "frames": [
+      {
+        "path": "/assets/characters/diabito/error/frame-000.png",
+        "durationMs": 350
+      },
+      {
+        "path": "/assets/characters/diabito/error/frame-001.png",
+        "durationMs": 350
+      },
+      {
+        "path": "/assets/characters/diabito/error/frame-002.png",
+        "durationMs": 350
+      }
+    ],
+    "loop": false
+  },
+  "power": {
+    "id": "power",
+    "frameWidth": 256,
+    "frameHeight": 256,
+    "anchor": [
+      128,
+      240
+    ],
+    "frames": [
+      {
+        "path": "/assets/characters/diabito/power/frame-000.png",
+        "durationMs": 150
+      },
+      {
+        "path": "/assets/characters/diabito/power/frame-001.png",
+        "durationMs": 150
+      },
+      {
+        "path": "/assets/characters/diabito/power/frame-002.png",
+        "durationMs": 150
+      },
+      {
+        "path": "/assets/characters/diabito/power/frame-003.png",
+        "durationMs": 150
+      }
+    ],
+    "loop": true
+  }
+}

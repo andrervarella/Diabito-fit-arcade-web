@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "width": 256,
+  "height": 256,
+  "foods": {
+    "rice": "/assets/refresh/foods/rice.png",
+    "potato": "/assets/refresh/foods/potato.png",
+    "pasta": "/assets/refresh/foods/pasta.png",
+    "sweet-potato": "/assets/refresh/foods/sweet-potato.png",
+    "cassava": "/assets/refresh/foods/cassava.png",
+    "chicken": "/assets/refresh/foods/chicken.png",
+    "beef": "/assets/refresh/foods/beef.png",
+    "fish": "/assets/refresh/foods/fish.png",
+    "egg": "/assets/refresh/foods/egg.png",
+    "beans": "/assets/refresh/foods/beans.png",
+    "lettuce": "/assets/refresh/foods/lettuce.png",
+    "broccoli": "/assets/refresh/foods/broccoli.png",
+    "carrot": "/assets/refresh/foods/carrot.png",
+    "tomato": "/assets/refresh/foods/tomato.png",
+    "cucumber": "/assets/refresh/foods/cucumber.png",
+    "chocolate": "/assets/refresh/foods/chocolate.png",
+    "ice-cream": "/assets/refresh/foods/ice-cream.png",
+    "lollipop": "/assets/refresh/foods/lollipop.png",
+    "doughnut": "/assets/refresh/foods/doughnut.png",
+    "soda": "/assets/refresh/foods/soda.png"
+  }
+}

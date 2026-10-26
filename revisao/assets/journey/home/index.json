@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "width": 512,
+  "height": 512,
+  "anchor": [
+    256,
+    480
+  ],
+  "environments": {
+    "room": "/assets/journey/home/room.png",
+    "bedroom": "/assets/journey/home/bedroom.png"
+  },
+  "clips": {
+    "sleep": {
+      "frames": [
+        "/assets/journey/home/sleep/frame-000.png",
+        "/assets/journey/home/sleep/frame-001.png",
+        "/assets/journey/home/sleep/frame-002.png",
+        "/assets/journey/home/sleep/frame-003.png"
+      ],
+      "frameMs": 500,
+      "loop": false
+    }
+  },
+  "layout": {
+    "room": {
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "mirrorSurface": {
+        "left": 0.395,
+        "top": 0.075,
+        "right": 0.94,
+        "bottom": 0.62
+      },
+      "note": "Keep the synchronized reflection entirely inside the clear mirror plane; use the foreground floor for the main sprite."
+    },
+    "bedroom": {
+      "sourceSize": [
+        1024,
+        1536
+      ],
+      "bedIncludedInClip": true,
+      "note": "Composite the complete bed-and-character sleep clip over the clear lower floor. Do not add another fixed bed."
+    }
+  }
+}

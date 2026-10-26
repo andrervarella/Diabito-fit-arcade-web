@@ -1,0 +1,32 @@
+{
+  "id": "poses",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "anchor": [
+    128,
+    240
+  ],
+  "frames": [
+    {
+      "path": "/assets/characters/diabito/poses/frame-000.png",
+      "durationMs": 1000
+    },
+    {
+      "path": "/assets/characters/diabito/poses/frame-001.png",
+      "durationMs": 1000
+    },
+    {
+      "path": "/assets/characters/diabito/poses/frame-002.png",
+      "durationMs": 1000
+    },
+    {
+      "path": "/assets/characters/diabito/poses/frame-003.png",
+      "durationMs": 1000
+    },
+    {
+      "path": "/assets/characters/diabito/poses/frame-004.png",
+      "durationMs": 1000
+    }
+  ],
+  "loop": false
+}
